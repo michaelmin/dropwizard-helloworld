@@ -1,7 +1,7 @@
 FROM 192.168.199.249:5000/java:1.8
 
 
-RUN pwd
+WORKDIR /home/jenkins/workspace/Test20/
 
 COPY ./target/dropwizard-helloworld-0.0.1-SNAPSHOT.jar /opt/
 COPY ./config /opt/
