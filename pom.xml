@@ -8,7 +8,7 @@
     <name>Dropwizard Hello World application</name>
     <repositories>
         <repository>
-            <id>sonatype-nexus-snapshots</id>
+            <id>nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
             <url>http://k8s-nexus.w3.cyber-insight.com/repository/maven-snapshots</url>
         </repository>
