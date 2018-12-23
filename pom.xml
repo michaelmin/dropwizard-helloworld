@@ -7,7 +7,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>Dropwizard Hello World application</name>
 
-
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>http://k8s-nexus.w3.cyber-insight.com/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>repo.codahale.com</id>
+            <url>http://k8s-nexus.w3.cyber-insight.com/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -125,3 +135,4 @@
         </plugins>
     </build>
 </project>
+
