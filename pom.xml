@@ -11,7 +11,7 @@
         <repository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>http://k8s-nexus.w3.cyber-insight.com/content/repositories/snapshots</url>
+            <url>http://k8s-nexus.w3.cyber-insight.com/repository/maven-snapshots</url>
         </repository>
         <repository>
             <id>repo.codahale.com</id>
